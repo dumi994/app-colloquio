@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.dnone{
+  display: none;
+}
+body {
+  margin: 0;
+ /*  background-color: #c4c4c4; */
+}
+#main h2{
+  text-align: center;
+}
+.button{
+  border-radius:5px;
+  height: 21px;
+}
+
+.h1{
+  text-align: center;
+}
+.items{
+  display: flex;
+  justify-content: center;
+}
+#input-container{
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+table, table tr, table td, table{
+  border:0.1px solid black;
+  padding:10px 0
+}
+table {
+  width:40%;
+  color:rgb(0, 0, 0);
+  background-color:white;
+  text-align: center;
+}
+table tr td{
+  width:50%
+}
+.select, .search{
+  display:flex;
+  justify-content: center;
+  margin:20px 0;
+}
+.select option{
+  text-align: center;
+}
+table tr:nth-child(even){
+  background-color: rgb(150, 150, 150);
+  color:white;
+}
+table tr:nth-child(odd){
+  background-color: rgb(255, 255, 255);
+}
